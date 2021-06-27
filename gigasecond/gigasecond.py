@@ -1,2 +1,5 @@
+from datetime import timedelta
 def add(moment):
-    pass
+    gigaSecond = 10 ** 9
+    newTime = moment + timedelta(seconds = gigaSecond)
+    return newTime
